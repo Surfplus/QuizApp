@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="question1">1. Which of the following is a polygon of more than 4 sides?</string>
+    <string name="question1_choice1">Triangle</string>
+    <string name="question1_choice2">Pentagon</string>
+    <string name="question1_choice3">Octagon</string>
+    <string name="question1_choice4">Heptagon</string>
+
+
+    <string name="question2">2. If the sum of two numbers is 8 and their product is 15, find the numbers.</string>
+    <string name="question2_choice1">3 and 5</string>
+    <string name="question2_choice2">6 and 3</string>
+    <string name="question2_choice3">4 and 3</string>
+
+    <string name="question3">3. The extent to which an event is likely to occur, measured by the ratio of the favourable cases to the whole number of cases possible is called</string>
+    <string name="question3_hint">Type your answer here</string>
+
+    <string name="question4">4. Find the common difference in the following arithmetic progression: 6, 14, 22, 30,...</string>
+    <string name="question4_choice1">6</string>
+    <string name="question4_choice2">7</string>
+    <string name="question4_choice3">8</string>
+
+    <string name="start_quiz">Start</string>
+
+    <string name="submit_button">Submit Answers</string>
+
+
+</resources>

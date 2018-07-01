@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.example.quizapp.Quiz1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a5f4be"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question_box1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:padding="20sp"
+            android:text="@string/question1"
+            android:textSize="25sp" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+
+            <CheckBox
+                android:id="@+id/q1_checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:paddingLeft="20dp"
+                android:text="@string/question1_choice1"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/q1_checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="20dp"
+                android:paddingLeft="20dp"
+                android:text="@string/question1_choice3"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/q1_checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/q1_checkBox1"
+                android:layout_margin="20dp"
+                android:paddingLeft="20dp"
+                android:text="@string/question1_choice2"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/q1_checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/q1_checkBox2"
+                android:layout_margin="20dp"
+                android:paddingLeft="20dp"
+                android:text="@string/question1_choice4"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="#FF9800">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question_box2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="20sp"
+                android:text="@string/question2"
+                android:textSize="25sp" />
+
+            <RadioGroup
+                android:id="@+id/q2_radiogroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <RadioButton
+                    android:id="@+id/q2_radioButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/question2_choice1"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/q2_radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/question2_choice2"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/q3_radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/q2_radioButton1"
+                    android:layout_margin="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/question2_choice3"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="#FF9800">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="20dp"
+                android:text="@string/question3"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/q3_answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:hint="@string/question3_hint"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="#FF9800">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question_box4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="20sp"
+                android:text="@string/question4"
+                android:textSize="25sp" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup_Q4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q4_radioButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/question4_choice1"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/q4_radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/question4_choice2"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/q4_radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/question4_choice3"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="submit"
+                android:text="@string/submit_button" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
